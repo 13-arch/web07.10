@@ -1,16 +1,19 @@
 .lol{
     display: flex;
     justify-content: center;
-    width:80% ;
+    max-width: 1900px;
 }
 .asd{
-    width: 20vw;
+    width: 25vw;
     height: 100vh; 
     transition:transform 0.8s ease;  
 }
 .container{
     margin: 0 auto;
 }
-.asdasd{
-    transform: scale(1.5);
+.transform1{
+    width: 40vw;
+}
+.transform2{
+    width: 20vw;
 }

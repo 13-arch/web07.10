@@ -17,3 +17,25 @@
 .transform2{
     width: 20vw;
 }
+#myImage1{
+    background-image: url(1736092215_new_preview_mountain-reflections-3840x2400.jpg);
+}
+#myImage2{
+    background-image: url(i.webp)
+}
+#myImage3{
+    background-image: url(i\ \(1\).webp)
+}
+#myImage4{
+    background-image: url(scale_1200.jpg)
+}
+p{
+    color: white;
+    font-size: 48px;
+}
+.text{
+    display: none;
+}
+.textVisible{
+    display: block;
+}

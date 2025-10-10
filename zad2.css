@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #837878;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+background: #cf1bc0;
+padding: 20px;
+border-radius: 13px;
+width: 280px;
+}
+
+.output {
+background: #222;
+color: #0f0;
+font-size: 20px;
+text-align: right;
+padding: 15px;
+border-radius: 8px;
+margin-bottom: 20px;
+min-height: 65px;
+}
+
+button {
+padding: 15px;
+font-size: 19px;
+border: none;
+border-radius: 8px;
+}
+
+.all-buttons {
+display: grid;
+gap: 10px;
+}
+
+.number-buttons {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 10px;
+}
+
+.action-buttons {
+display: grid;
+gap: 10px;
+}
+
+
+.special-buttons {
+grid-column: span 2;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 10px;
+margin-bottom: 10px;
+}
+
+
+.number-buttons button {
+background: #eee;
+}
+
+.number-buttons button:hover {
+background: #ddd;
+}
+
+.action-buttons button {
+background: #f9a825;
+color: #fff;
+}
+
+.action-buttons button:hover {
+background: #f57f17;
+}
+
+.special-buttons button {
+background: #90caf9;
+color: #000;
+}
+
+.special-buttons button:hover {
+background: #64b5f6;
+}
+
+#ravno {
+background: #43a047;
+color: #fff;
+}
+
+#ravno:hover {
+background: #2e7d32;
+}

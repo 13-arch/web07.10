@@ -5,6 +5,7 @@ const info = document.getElementById('info')
 
 button.addEventListener('click', function(){
     input.forEach(element =>{
-        info.innerText += element.value
+
+        info.innerText = info.innerText + ' ' + element.value
     })
 })
